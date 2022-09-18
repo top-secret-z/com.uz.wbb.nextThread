@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.board.thread.next"><![CDATA[Next Thread]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_enable_next"><![CDATA[Show button at bottom of page]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_enable_next_mobile"><![CDATA[Also show button on mobile devices]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_next_sorting"><![CDATA[Call up order of Threads]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_next_sorting.description"><![CDATA[Determines whether the topics with the newest unread posts should be called up first or those with the oldest.]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_next_sorting.new"><![CDATA[Newest first]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_next_sorting"><![CDATA[Oldest first]]></item>
+	</category>
+	
+	<category name="wbb.thread">
+		<item name="wbb.thread.nextThread"><![CDATA[Go to next thread: {$nextThread->getTitle()}]]></item>
+	</category>
+</language>

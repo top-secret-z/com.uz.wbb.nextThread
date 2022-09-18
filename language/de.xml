@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.board.thread.next"><![CDATA[Nächstes Thema]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_enable_next"><![CDATA[Schaltfläche unten auf der Seite anzeigen]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_enable_next_mobile"><![CDATA[Schaltfläche auch auf Mobilgeräten anzeigen]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_next_sorting"><![CDATA[Reihenfolge des Themenaufrufs]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_next_sorting.description"><![CDATA[Legt fest, ob zuerst die Themen mit den neuesten ungelesenen Beiträgen aufgerufen werden sollen oder die mit den ältesten.]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_next_sorting.new"><![CDATA[Neueste zuerst]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_next_sorting.old"><![CDATA[Älteste zuerst]]></item>
+	</category>
+	
+	<category name="wbb.thread">
+		<item name="wbb.thread.nextThread"><![CDATA[Zum nächsten Thema: {$nextThread->getTitle()}]]></item>
+	</category>
+</language>
