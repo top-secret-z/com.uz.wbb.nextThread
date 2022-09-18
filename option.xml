@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
-	<import>
-		<categories>
-			<category name="board.thread.next">
-				<parent>board.thread</parent>
-			</category>
-		</categories>
-		
-		<options>
-			<option name="wbb_board_thread_enable_next">
-				<categoryname>board.thread.next</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-				<enableoptions>wbb_board_thread_enable_next_mobile</enableoptions>
-			</option>
-			
-			<option name="wbb_board_thread_enable_next_mobile">
-				<categoryname>board.thread.next</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			
-			<option name="wbb_board_thread_next_sorting">
-				<categoryname>board.thread.next</categoryname>
-				<optiontype>radioButton</optiontype>
-				<defaultvalue>new</defaultvalue>
-				<selectoptions>new:wcf.acp.option.wbb_board_thread_next_sorting.new
+    <import>
+        <categories>
+            <category name="board.thread.next">
+                <parent>board.thread</parent>
+            </category>
+        </categories>
+
+        <options>
+            <option name="wbb_board_thread_enable_next">
+                <categoryname>board.thread.next</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+                <enableoptions>wbb_board_thread_enable_next_mobile</enableoptions>
+            </option>
+
+            <option name="wbb_board_thread_enable_next_mobile">
+                <categoryname>board.thread.next</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+
+            <option name="wbb_board_thread_next_sorting">
+                <categoryname>board.thread.next</categoryname>
+                <optiontype>radioButton</optiontype>
+                <defaultvalue>new</defaultvalue>
+                <selectoptions>new:wcf.acp.option.wbb_board_thread_next_sorting.new
 old:wcf.acp.option.wbb_board_thread_next_sorting.old</selectoptions>
-			</option>
-		</options>
-	</import>
+            </option>
+        </options>
+    </import>
 </data>
